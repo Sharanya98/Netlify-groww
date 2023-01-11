@@ -1,8 +1,8 @@
 module.exports = {
   title: 'HITOWA',
   description:'HITOWA GROUP MESSAGE',
-  dest: 'dist',
-  public: 'public',
+  // dest: 'dist',
+  // public: 'public',
   themeConfig: {
     nav:[
       {text:'Home', link:'/'},

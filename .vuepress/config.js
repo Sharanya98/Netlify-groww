@@ -8,10 +8,7 @@ module.exports = {
   ],
   },
   patterns: [
-    'docs/*.md',
-    'docs/**/*.md',
-    '!amplify/**',
-    '!tools/**'
+    
   ],
   postcss: {
     plugins: [

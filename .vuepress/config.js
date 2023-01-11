@@ -13,4 +13,10 @@ module.exports = {
     '!amplify/**',
     '!tools/**'
   ],
+  postcss: {
+    plugins: [
+      require("autoprefixer"),
+      require("tailwindcss")("./tailwind.config.js")
+    ],
+  }
 }

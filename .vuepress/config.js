@@ -1,6 +1,16 @@
 module.exports = {
   title: 'HITOWA',
   description:'HITOWA GROUP MESSAGE',
+  dest: 'dist',
+  public: 'public',
   themeConfig: {
-  }
+    navbar: false
+  },
+  patterns: [
+    'docs/*.md',
+    'docs/**/*.md',
+    '.vupress/**/*.vue',
+    '!amplify/**',
+    '!tools/**'
+  ],
 }

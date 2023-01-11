@@ -6,14 +6,5 @@ module.exports = {
       {text:'Home', link:'/'},
       {text:'categories', link:'/categories/'}
   ],
-  },
-  patterns: [
-    
-  ],
-  postcss: {
-    plugins: [
-      require("autoprefixer"),
-      require("tailwindcss")("./tailwind.config.js")
-    ],
   }
 }

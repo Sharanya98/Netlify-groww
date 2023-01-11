@@ -10,7 +10,6 @@ module.exports = {
   patterns: [
     'docs/*.md',
     'docs/**/*.md',
-    '.vupress/**/*.vue',
     '!amplify/**',
     '!tools/**'
   ],

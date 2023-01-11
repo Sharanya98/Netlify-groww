@@ -1,6 +1,9 @@
 backend:
   name: git-gateway
   branch: master
+
+
+
 publish_mode: editorial_workflow 
 media_folder: "/images/"
 preview_context: deploy-preview
@@ -11,7 +14,7 @@ display_url: test-hcode.netlify.app
 collections:
   - name: pages
     label: Pages
-    folder: docs
+    folder: "docs"
     create: true
      slug: "{{slug}}"
     preview_path: docs/{{title}}.html

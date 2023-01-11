@@ -7,7 +7,7 @@ publish_mode: editorial_workflow
 preview_context: deploy-preview
 show_preview_links: true 
 public_folder: "../../"
-display_url: hocode-preview.netlify.app
+display_url: test-hcode.netlify.app
 collections:
   - name: pages
     label: Pages

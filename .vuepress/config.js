@@ -2,7 +2,7 @@ module.exports = {
   title: 'HITOWA',
   description:'HITOWA GROUP MESSAGE',
   themeConfig: {
-    navbar: false
+
   },
   patterns: [
     'docs/*.md',

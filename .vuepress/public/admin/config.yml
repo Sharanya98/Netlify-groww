@@ -1,18 +1,19 @@
 backend:
   name: git-gateway
   branch: master
-
-media_folder: ".vuepress/public/"
 publish_mode: editorial_workflow 
+media_folder: "/images/"
 preview_context: deploy-preview
+locale: ja
 show_preview_links: true 
 display_url: test-hcode.netlify.app
+
 collections:
   - name: pages
     label: Pages
-    folder: "docs"
+    folder: docs
     create: true
-    slug: "{{slug}}"
+     slug: "{{slug}}"
     preview_path: docs/{{title}}.html
     identifier_field: title
     editor:
@@ -24,5 +25,4 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Featured Image", name: "image", widget: "image", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime", required: false}
-
-     
+      

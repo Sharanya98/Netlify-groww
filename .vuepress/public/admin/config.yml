@@ -15,7 +15,8 @@ collections:
   - name: pages
     label: Pages
     folder: "docs"
-     slug: "{{slug}}"
+    create: true
+    slug: "{{slug}}"
     preview_path: docs/{{title}}.html
     identifier_field: title
     editor:

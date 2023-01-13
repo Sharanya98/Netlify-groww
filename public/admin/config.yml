@@ -6,7 +6,7 @@ publish_mode: editorial_workflow
 media_folder: "/images/"
 preview_context: deploy-preview
 show_preview_links: true 
-display_url: test-hcode.netlify.app
+display_url: https://charming-cobbler-d90f60.netlify.app/
 
 collections:
   - name: pages
